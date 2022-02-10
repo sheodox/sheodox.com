@@ -5,7 +5,7 @@ export default function Header() {
 
 	return (
 		<header className="my-14 flex justify-center items-center gap-10">
-			<Image src="/sheodox-logo.png" width={logoSize} height={logoSize} className="rounded-full" />
+			<Image src="/sheodox-logo.png" width={logoSize} height={logoSize} className="rounded-full" alt="sheodox logo" />
 			<h1 className="text-5xl font-bold">sheodox</h1>
 		</header>
 	);

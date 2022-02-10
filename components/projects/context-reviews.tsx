@@ -18,8 +18,8 @@ export default function ContextReviews() {
 			<p>
 				It uses a browser extension to watch for your Jisho.org searches and later helps you build beautiful looking
 				Anki cards by just selecting text.{' '}
-				<strong>That means you can forget about writing down every new word you encounter</strong> while you're reading
-				and concentrate on definitions, Context.Reviews will be ready to help when you're done.
+				<strong>That means you can forget about writing down every new word you encounter</strong> while you&apos;re
+				reading and concentrate on definitions, Context.Reviews will be ready to help when you&apos;re done.
 			</p>
 			<video src="/context.reviews/anki-export-demo.mp4" autoPlay muted loop controls className="rounded-2xl" />
 		</ProjectLayout>

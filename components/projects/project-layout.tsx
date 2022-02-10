@@ -15,14 +15,19 @@ export default function ProjectLayout(props: PropsWithChildren<ProjectLayoutProp
 	return (
 		<article className="bg-slate-700 rounded-2xl p-5 flex flex-col md:flex-row gap-14">
 			<div className="rounded-full bg-slate-900 self-center md:self-start p-7">
-				<a href={props.href} target="_blank">
-					<Image src={props.logoUrl} height={logoSize} width={logoSize} />
+				<a href={props.href} target="_blank" rel="noreferrer">
+					<Image src={props.logoUrl} height={logoSize} width={logoSize} alt="logo" />
 				</a>
 			</div>
 			<div>
 				<div className="text-center md:text-left">
 					<h1 className="text-4xl">
-						<a href={props.href} className="hover:text-purple-300 hover:underline transition-colors" target="_blank">
+						<a
+							href={props.href}
+							className="hover:text-purple-300 hover:underline transition-colors"
+							target="_blank"
+							rel="noreferrer"
+						>
 							{props.name}
 						</a>
 					</h1>

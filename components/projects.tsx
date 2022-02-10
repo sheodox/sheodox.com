@@ -1,7 +1,7 @@
 import ContextReviews from './projects/context-reviews';
 import Konshuu from './projects/konshuu';
 import JimakuPlayer from './projects/jimaku-player';
-import WellRead from './projects/well-read.tsx';
+import WellRead from './projects/well-read';
 
 export default function Projects() {
 	return (

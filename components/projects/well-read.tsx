@@ -13,10 +13,16 @@ export default function WellRead() {
 			tagLine="Read Without Losing the Plot"
 		>
 			<p>
-				Well Read helps you organize your notes about books you're reading, so you're never lost when starting a new
-				volume.
+				Well Read helps you organize your notes about books you&apos;re reading, so you&apos;re never lost when starting
+				a new volume.
 			</p>
-			<Image src="/well-read/screenshot.png" height={895} width={1524} className="rounded-xl" />
+			<Image
+				src="/well-read/screenshot.png"
+				height={895}
+				width={1524}
+				className="rounded-xl"
+				alt="Well Read screenshot"
+			/>
 		</ProjectLayout>
 	);
 }

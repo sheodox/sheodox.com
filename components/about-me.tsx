@@ -2,7 +2,7 @@ export default function AboutMe() {
 	return (
 		<>
 			<article className="mx-auto max-w-lg flex flex-col items-center gap-4 text-center">
-				<p>Hi, I'm sheodox! I'm a Software Engineer from Minnesota, USA.</p>
+				<p>Hi, I&apos;m sheodox! I&apos;m a Software Engineer from Minnesota, USA.</p>
 				<p>
 					I like making sites that help me organize my life and making tools to help learning Japanese. I hope my
 					projects help you too!
