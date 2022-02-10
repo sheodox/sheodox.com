@@ -1,5 +1,6 @@
 import { PropsWithChildren } from 'react';
 import Image from 'next/image';
+import ExternalLink from '../external-link';
 
 interface ProjectLayoutProps {
 	name: string;
@@ -15,21 +16,16 @@ export default function ProjectLayout(props: PropsWithChildren<ProjectLayoutProp
 	return (
 		<article className="bg-slate-700 rounded-2xl p-5 flex flex-col md:flex-row gap-14">
 			<div className="rounded-full bg-slate-900 self-center md:self-start p-7 flex-shrink-0">
-				<a href={props.href} target="_blank" rel="noreferrer">
+				<ExternalLink href={props.href}>
 					<Image src={props.logoUrl} height={logoSize} width={logoSize} alt="logo" />
-				</a>
+				</ExternalLink>
 			</div>
 			<div>
 				<div className="text-center md:text-left">
 					<h1 className="text-4xl">
-						<a
-							href={props.href}
-							className="hover:text-purple-300 hover:underline transition-colors"
-							target="_blank"
-							rel="noreferrer"
-						>
+						<ExternalLink href={props.href} className="hover:text-purple-300 hover:underline transition-colors">
 							{props.name}
-						</a>
+						</ExternalLink>
 					</h1>
 					<p className="text-xl italic">{props.tagLine}</p>
 					<div className="flex gap-2 mb-4 justify-center md:justify-start">
