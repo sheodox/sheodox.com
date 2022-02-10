@@ -14,7 +14,7 @@ const logoSize = 150;
 export default function ProjectLayout(props: PropsWithChildren<ProjectLayoutProps>) {
 	return (
 		<article className="bg-slate-700 rounded-2xl p-5 flex flex-col md:flex-row gap-14">
-			<div className="rounded-full bg-slate-900 self-center md:self-start p-7">
+			<div className="rounded-full bg-slate-900 self-center md:self-start p-7 flex-shrink-0">
 				<a href={props.href} target="_blank" rel="noreferrer">
 					<Image src={props.logoUrl} height={logoSize} width={logoSize} alt="logo" />
 				</a>
