@@ -14,7 +14,7 @@ export default function WellRead() {
 		>
 			<p>
 				Well Read helps you organize your notes about books you&apos;re reading, so you&apos;re never lost when starting
-				a new volume.
+				a new volume. You can also use it as a bookmark and look back at how much you&apos;ve read over time.
 			</p>
 			<Image
 				src="/well-read/screenshot.png"
