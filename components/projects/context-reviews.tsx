@@ -21,6 +21,10 @@ export default function ContextReviews() {
 				<strong>That means you can forget about writing down every new word you encounter</strong> while you&apos;re
 				reading and concentrate on definitions, Context.Reviews will be ready to help when you&apos;re done.
 			</p>
+			<p>
+				You can also import phrases from subtitle files directly! Just upload a <code>.srt</code> or <code>.ass</code>{' '}
+				file! Now you can be 100% prepared by learning all the words in a show ahead of time.
+			</p>
 			<video src="/context.reviews/anki-export-demo.mp4" autoPlay muted loop controls className="rounded-2xl" />
 		</ProjectLayout>
 	);
