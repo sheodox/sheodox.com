@@ -10,6 +10,8 @@ export default function ContextReviews() {
 			logoUrl="/context.reviews/logo.svg"
 			href="https://context.reviews"
 			tagLine="Study Japanese Using Anything"
+			borderClass="border-cyan-500"
+			bgClass="bg-cyan-500"
 		>
 			<p>
 				Context.Reviews that helps you build Anki flash cards to learn Japanese words using the native materials you

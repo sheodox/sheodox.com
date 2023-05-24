@@ -11,6 +11,8 @@ export default function WellRead() {
 			logoUrl="/well-read/logo.svg"
 			href="https://wellread.app/"
 			tagLine="Read Without Losing the Plot"
+			bgClass="bg-pink-500"
+			borderClass="border-pink-500"
 		>
 			<p>
 				Well Read helps you organize your notes about books you&apos;re reading, so you&apos;re never lost when starting

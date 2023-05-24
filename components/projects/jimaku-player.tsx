@@ -11,6 +11,8 @@ export default function JimakuPlayer() {
 			logoUrl="/jimaku-player/logo.svg"
 			href="https://github.com/sheodox/jimaku-player#readme"
 			tagLine="Anime With Your Subtitles"
+			bgClass="bg-red-600"
+			borderClass="border-red-400"
 		>
 			<p>Jimaku Player is a project that lets you use your own Japanese subtitles on anime on Crunchyroll and VRV.</p>
 

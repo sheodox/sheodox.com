@@ -11,6 +11,8 @@ export default function DiceChest() {
 			logoUrl="/dicechest/logo.svg"
 			href="https://dicechest.com"
 			tagLine="Plan things with just the broad strokes. Let Dice Chest decide the specifics."
+			bgClass="bg-teal-500"
+			borderClass="border-teal-500"
 		>
 			<p>
 				Dice Chest is useful for planning events. Create a category for each event like <em>Dates</em> or{' '}
