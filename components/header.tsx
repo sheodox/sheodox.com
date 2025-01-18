@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import ExternalLink from './external-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faMastodon } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 const headerLinks = [
@@ -15,6 +15,12 @@ const headerLinks = [
 		href: 'mailto:sheodox@gmail.com',
 		icon: faEnvelope,
 	},
+	{
+		text: 'Mastodon',
+		href: 'https://mastodon.social/@sheodox',
+		icon: faMastodon,
+		rel: 'me',
+	},
 ];
 
 export default function Header() {
@@ -27,7 +33,7 @@ export default function Header() {
 				<h1 className="text-5xl font-bold">sheodox</h1>
 				<div className="flex mt-2 gap-4">
 					{headerLinks.map((link) => (
-						<ExternalLink key={link.href} href={link.href}>
+						<ExternalLink key={link.href} href={link.href} rel={link.rel ?? ''}>
 							<FontAwesomeIcon icon={link.icon} className="h-8" />
 							<span className="sr-only">{link.text}</span>
 						</ExternalLink>
